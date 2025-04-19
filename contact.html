@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #4a90e2;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid white;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    nav {
+      background: #333;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #4a90e2;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .project h3 {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="PASSPORT 2-4.jpg" alt="Profile Picture" class="profile-pic" />
+    <h1>Obidiano Michael</h1>
+    <p>100 Level Software Engineering Student at software Engineering department</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>Hello! I'm Obidiano Michael, a front-end developer with a passion for clean, responsive design and intuitive user experiences. I enjoy building projects with HTML, CSS, and JavaScript — and I'm always learning something new.</p>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-list">
+          <div class="skill">HTML</div>
+          <div class="skill">CSS</div>
+          <div class="skill">JavaScript</div>
+          <div class="skill">React</div>
+          <div class="skill">Bootstrap</div>
+          <div class="skill">Git</div>
+          <div class="skill">Responsive Design</div>
+        </div>
+      </section>
+  
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>Portfolio Website</h3>
+          <p>A personal portfolio site to showcase my work and skills.</p>
+        </div>
+        <div class="project">
+          <h3>To-Do App</h3>
+          <p>A simple and elegant to-do list app built with JavaScript.</p>
+        </div>
+        <div class="project">
+          <h3>Responsive Blog</h3>
+          <p>A mobile-friendly blog template using modern CSS layout techniques.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Email: obidiano.michael@gmail.come</p>
+      <p>Phone Number: 08140256044</p>
+    </section>
+
+    
+  </div>
+
+  <footer>
+    <p>© 2025 Obidiano Michael. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
